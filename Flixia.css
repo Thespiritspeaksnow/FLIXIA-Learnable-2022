@@ -1,0 +1,101 @@
+/* 
+Font
+*/
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	/* 
+    Primary 
+    */
+	--Dark-Blue: hsl(185, 70%, 50%);
+	--Lime-Green: hsla(53, 79%, 47%, 0.768);
+	--Bright-Cyan: hsl(0, 0%, 0%);
+}
+
+.container {
+	width: 50vw;
+	max-width: 100px;
+	padding-block: 3em;
+	padding-inline: 2em;
+}
+
+img {
+    justify-content: center;
+}
+
+.navigation{
+    justify-content: safe;
+    padding-left: 60vh;
+    padding-right: 50vh;
+}
+
+.search-box {
+    color: #031939;
+    display: grid;
+    padding-left: 20vh;
+    padding-right: 30vh;
+}
+
+.search-box:hover > .search-txt {
+    width: 120px;
+    padding: 0 6px;
+}
+.search-btn {
+    color: transparent;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.web {
+    text-align: center;
+}
+
+body{
+    background-color: rgb(85, 221, 194);
+	font-size: 18px;
+	font-family: "Public Sans", sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+.Tsc, .Tssc, .Tac{
+    justify-content:flex-start;
+    display: flex;
+    padding: 5px;
+    border: #031939;
+   }
+
+   .apps{
+    display: inline-block;
+    text-align: center;
+   }
+
+   .foot{
+    text-align: center;
+   }
+
+   h4 {
+    justify-content: flex-start;
+    display: flexbox;
+    animation-name: unset;
+   }
+
+   .footer {
+    text-align: center;
+    display: flex;
+   }
